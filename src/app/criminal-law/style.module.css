@@ -1,0 +1,180 @@
+.container { 
+    padding: 35px;
+    background-color: #282828;
+    color: white;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.blockCenter {
+    width: 909px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subTitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #404040;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 15px;
+}
+
+.cardItemText {
+    display: flex;
+    align-items: center;
+}
+
+.textBlock {
+    padding: 35px 0 45px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    border-bottom: 1px solid rgba(64, 64, 64, 1);
+}
+
+.textBlockItem {
+    margin-top: 10px;
+}
+
+.containerImg {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    height: 549px;
+}
+
+.imgIcon {
+    border-radius: 30px;
+    background: #282828;
+    width: 382px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textName {
+    font-size: 18px;
+}
+
+.jobTitle {
+    font-size: 18px;
+    color:#B9B9B9;
+}
+
+.emai {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.price {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.containerOrderService {
+    display: flex;
+}
+
+.orderService {
+    border-radius: 22px;
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin-top: 15px;
+    cursor: pointer;
+} 
+
+.priceContainer {
+    border-top: 1px solid #727171;
+    border-bottom: 1px solid #727171;
+    padding: 15px 0;
+}
+
+.cardItem {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.containerText {
+    margin-top: 10px;
+}
+
+.textTitle {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.miniCardItem {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid #404040;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+.textHeader {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.containerList {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.containerOther {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textBlockItem {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    padding: 8px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.containerBorderText {
+    margin-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 7px 0; 
+}
+
+.containerBorderList {
+    margin-left: 20px;
+    font-size: 20px;
+    line-height: 32px;
+}

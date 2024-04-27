@@ -1,0 +1,73 @@
+.lawOffice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    background: rgba(34, 34, 34, 1);
+  
+}
+
+.lawOfficeText {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    padding-left: 10px;
+}
+
+.partnerExperience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    background: rgba(34, 34, 34, 1);
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.partnerExperienceText {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-right: 10px;
+}
+
+.container {
+    padding: 35px;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 71px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 20px;
+    border: 1px solid rgba(40, 40, 40, 1);
+    width: 349px;
+    height: 185px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.containerLetter {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}

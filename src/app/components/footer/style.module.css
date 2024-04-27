@@ -1,0 +1,25 @@
+.footer {
+    height: 311px;
+    background: rgba(34, 34, 34, 1);
+    color: #fff;
+    padding: 66px;
+    width: 100%;
+    font-weight: 400;
+}
+.containerTop {
+    display: flex;
+    justify-content: center;
+}
+.containerTopText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 28px;
+}
+.containerBottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 28px;
+}

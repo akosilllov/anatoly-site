@@ -1,0 +1,10 @@
+.main {
+    background-image: url('../assets/icons/case1Main.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 943px;
+}

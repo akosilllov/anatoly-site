@@ -1,230 +1,245 @@
-.main {
+.moreService {
+  background-image: url('./assets/icons/moreService2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
-  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 421px;
+  font-size: 48px;
+}
+
+.bankruptcy {
+  background-image: url('./assets/icons/bankruptcy2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 943px;
+}
+
+.bankruptcyText {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.moreDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.criminalLaw {
+  background-image: url('./assets/icons/creminalLaw.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 943px;
+}
+
+.criminalLawText {
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.moreDetailsCriminalLaw {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid black;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inheritance {
+  background-image: url('./assets/icons/inheritance.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  height: 943px;
+  display: flex;
+}
+
+.inheritanceTextContainer {
+  width: 580px;
+  height: 100%;
+  padding-left: 86px;
+  color: white;
+  background: linear-gradient(rgba(151, 151, 151, 0),rgba(30, 30, 30, 0.87), rgba(0, 0, 0, 1));
+}
+
+.inheritanceText {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+  height: 100%;
+}
+
+.inheritanceContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.intellectualRight {
+  background-image: url('./assets/icons/intellectualRight2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  height: 943px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intellectualRightContainer {
+  display: flex;
+  width: 100%;
+}
+
+.intellectualRightLeft {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  justify-content: center;
+}
+
+.intellectualRightText {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 44px;
+  height: 100%;
+  color: white;
+  background: linear-gradient(rgba(151, 151, 151, 0),rgba(24, 24, 24, 0.71),rgba(0, 0, 0, 1));
+  width: 523px;
+  padding-left: 20px;
+}
+
+.arbitrationDisputes {
+  background-image: url('./assets/icons/arbitrationDisputes2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 943px;
+}
+
+.moreDetailsArbitrationDisputes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  border-radius: 30px;
+  border: 3px solid white;
+  padding: 5px;
+}
+
+.main {
+  height: 1117px;
+  background-image: url('./assets/icons/main1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 35px 45px;
+  color: white;
+}
+
+.header {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
-
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.description p {
   position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
 }
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
+.mainContainerBottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
+.mainText {
+  font-size: 32px;
+  line-height: 47.5px;
 }
 
-.card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
+.mainTextUrBuro {
+  font-size: 36px;
+  line-height: 47px;
+  font-weight: 400;
+  text-align: right;
 }
 
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
-}
-
-.card h2 {
+.mainTextProblem {
+  font-size: 40px;
+  line-height: 47px;
   font-weight: 600;
-  margin-bottom: 0.7rem;
+  margin-top: 8px; 
 }
 
-.card p {
-  margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-  text-wrap: balance;
+.mainTextContainer {
+  display: flex;
+  justify-content: flex-end;
 }
 
-.center {
+.contactMe {
+  font-size: 40px;
+  border: 3px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  padding: 4rem 0;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 7px;
+  margin-top: 8px;
 }
 
-.center::before {
-  background: var(--secondary-glow);
+.ellipseContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.ellipseBottomContainer {
+  display: flex;
+  width: 212px;
+  justify-content: space-between;
+}
+
+.ellipse {
+  height: 32px;
+  width: 32px;
+  border: 7px solid #A6A6A6;
   border-radius: 50%;
-  width: 480px;
-  height: 360px;
-  margin-left: -400px;
-}
-
-.center::after {
-  background: var(--primary-glow);
-  width: 240px;
-  height: 180px;
-  z-index: -1;
-}
-
-.center::before,
-.center::after {
-  content: "";
-  left: 50%;
-  position: absolute;
-  filter: blur(45px);
-  transform: translateZ(0);
-}
-
-.logo {
-  position: relative;
-}
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  .card:hover {
-    background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-  }
-
-  .card:hover span {
-    transform: translateX(4px);
-  }
-}
-
-@media (prefers-reduced-motion) {
-  .card:hover span {
-    transform: none;
-  }
-}
-
-/* Mobile */
-@media (max-width: 700px) {
-  .content {
-    padding: 4rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
-  }
-
-  .card {
-    padding: 1rem 2.5rem;
-  }
-
-  .card h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
-
-  .center::before {
-    transform: none;
-    height: 300px;
-  }
-
-  .description {
-    font-size: 0.8rem;
-  }
-
-  .description a {
-    padding: 1rem;
-  }
-
-  .description p,
-  .description div {
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-  }
-
-  .description p {
-    align-items: center;
-    inset: 0 0 auto;
-    padding: 2rem 1rem 1.4rem;
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    );
-    background-clip: padding-box;
-    backdrop-filter: blur(24px);
-  }
-
-  .description div {
-    align-items: flex-end;
-    pointer-events: none;
-    inset: auto 0 0;
-    padding: 2rem;
-    height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
-    z-index: 1;
-  }
-}
-
-/* Tablet and Smaller Desktop */
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .vercelLogo {
-    filter: invert(1);
-  }
-
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
-}
-
-@keyframes rotate {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
+  cursor: pointer;;
 }

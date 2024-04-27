@@ -1,0 +1,68 @@
+.containerWhite {
+    width: 210px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+    position: fixed;
+}
+
+.containerBlack {
+    width: 210px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: rgba(0, 0, 0, 1);
+    position: fixed;
+}
+
+.containerBlack::before {
+    content: "";
+    width: 150px;
+    position: absolute;
+    height: 2px;
+    background: black;
+    top: -10px;
+}
+
+.containerWhite::before {
+    content: "";
+    width: 150px;
+    position: absolute;
+    height: 2px;
+    background: white;
+    top: -10px;
+}
+
+.containerWhite::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: white;
+    bottom: -10px;
+    position: absolute;
+}
+
+.containerBlack::after {
+    content: "";
+    width: 150px;
+    height: 2px;
+    background: black;
+    bottom: -10px;
+    position: absolute;
+}
+
+.item {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.servicesLinkItem {
+    font-size: 16px;
+    font-weight: 400
+}
+
+.servicesLinkContainer {
+    padding-left: 10px;
+}
